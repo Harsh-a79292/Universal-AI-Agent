@@ -1,0 +1,26 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Database
+database/*.db
+*.db
+*.sqlite3
+
+# Streamlit
+.streamlit/
+!.streamlit/config.toml
+!.streamlit/secrets.toml.example
+
